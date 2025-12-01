@@ -62,8 +62,7 @@ The project uses a simplified star-schema model optimized for analytical reporti
 - Phone Service  
 
 ---
-
-##  Key DAX Measures
+## Key DAX Measures
 
 ```DAX
 Churn Rate =
@@ -86,90 +85,6 @@ AVERAGE(Customer[Tenure])
 
 Revenue Lost =
 CALCULATE(SUM(Customer[TotalCharges]), Customer[Churn] = "Yes")
-# Key Insights & Analysis
-1. Demographic Insights
-Senior citizens churn significantly more.
 
-New customers (tenure ≤ 12 months) show the highest churn.
 
-Long-term customers exhibit strong retention.
 
-2. Service Usage Trends
-Fiber Optic users have the highest churn rate.
-
-Customers with fewer add-on services churn more.
-
-Multi-service bundles increase loyalty.
-
-3. Contract & Billing Behavior
-Month-to-month customers: highest churn
-
-One-year contracts: moderate churn
-
-Two-year contracts: lowest churn
-
-Electronic check users: highest churn among payment methods
-
-Auto-payment customers are more loyal
-
-4. Revenue Impact
-Customers on short-term plans produce high churn-related revenue loss.
-
-Two-year contract users contribute the highest total revenue.
-
-# Predictive Insights (AI-Based)
-The Power BI AI Visual identifies high-risk churn profiles:
-
-Short tenure (0–12 months)
-
-High monthly charges
-
-Month-to-month contracts
-
-Fiber optic internet
-
-Electronic check payments
-
-Senior citizens (slightly higher risk)
-
-These segments require targeted retention efforts.
-
-# Churn Risk Segmentation
-The dashboard categorizes customers into:
-
-High Risk – Short tenure, high charges, electronic check, month-to-month
-
-Medium Risk – Moderate service usage and charges
-
-Low Risk – Loyal long-term customers with bundled services
-
-# Business Recommendations
-Improve onboarding for customers in the first 12 months.
-
-Encourage migration from month-to-month to annual contracts.
-
-Enhance Fiber Optic service quality and tech support.
-
-Promote automatic payment methods to reduce churn.
-
-Offer discounts or loyalty benefits to high-risk segments.
-
-Cross-sell bundled services to increase retention.
-
-Use AI churn scores to prioritize retention campaigns.
-
-# Project Files
-Customer_Churn_Analysis.pbix – Main Power BI dashboard
-
-Customer_Churn_Presentation.pptx – Final project explanation
-
-/Screenshots/ – Dashboard visuals (optional)
-
-banner.png – Repo banner image (optional)
-
-# Author
-Bathula Venu Gopal
-Data Science & BI Enthusiast
-Power BI | SQL | Python | ML | Analytics | Storytelling
-
-## Thank You ##
