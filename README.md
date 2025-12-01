@@ -167,8 +167,7 @@ The dashboard categorizes customers into:
 ##  Project Files
 - **Customer_Churn_Analysis.pbix** – Main Power BI dashboard  
 - **Customer_Churn_Presentation.pptx** – Final analysis presentation  
-- **/Screenshots/** – Dashboard visuals (optional)  
-- **banner.png** – Repository banner image  
+ - **banner.png** – Repository banner image  
 
 # Author
 Bathula Venu Gopal
