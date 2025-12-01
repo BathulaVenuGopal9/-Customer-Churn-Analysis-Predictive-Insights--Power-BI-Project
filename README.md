@@ -62,7 +62,7 @@ The project uses a simplified star-schema model optimized for analytical reporti
 - Phone Service  
 
 ---
-## Key DAX Measures
+##  Key DAX Measures
 
 ```DAX
 Churn Rate =
@@ -85,6 +85,95 @@ AVERAGE(Customer[Tenure])
 
 Revenue Lost =
 CALCULATE(SUM(Customer[TotalCharges]), Customer[Churn] = "Yes")
+```
+
+
+
+
+##  Key Insights & Analysis
+
+### ** Demographic Insights**
+- Senior citizens churn significantly more.  
+- New customers (tenure ≤ 12 months) have the highest churn.  
+- Long-term customers show strong retention.
+
+---
+
+### ** Service Usage Trends**
+- Fiber Optic customers experience the highest churn rate.  
+- Customers with fewer add-on services churn more frequently.  
+- Multi-service bundles significantly improve retention.
+
+---
+
+### ** Contract & Billing Behavior**
+- **Month-to-month** customers → highest churn  
+- **One-year** contracts → moderate churn  
+- **Two-year** contracts → lowest churn  
+- **Electronic check** customers → highest churn by payment method  
+- Auto-payment customers tend to be more loyal
+
+---
+
+### ** Revenue Impact**
+- Short-term plan customers contribute the most revenue loss due to churn.  
+- Two-year contract customers contribute the highest long-term revenue.
+
+---
+
+##  Predictive Insights (AI-Based)
+The Power BI AI Visual identifies **high-risk churn profiles**, including:
+- Short tenure (0–12 months)  
+- High monthly charges  
+- Month-to-month contracts  
+- Fiber optic internet  
+- Electronic check payments  
+- Senior citizens (slightly higher risk)
+
+These profiles require targeted retention strategies.
+
+---
+
+##  Churn Risk Segmentation
+The dashboard categorizes customers into:
+
+### ** High Risk**
+- Short tenure  
+- High monthly charges  
+- Month-to-month contract  
+- Electronic check payment  
+
+### ** Medium Risk**
+- Moderate service usage  
+- Moderate charges  
+
+### ** Low Risk**
+- Long-term loyal customers  
+- Multiple service bundles  
+
+---
+
+##  Business Recommendations
+1. Improve onboarding for customers in their first 12 months.  
+2. Encourage upgrades from month-to-month to annual or biennial contracts.  
+3. Enhance Fiber Optic service quality and technical support.  
+4. Promote automatic payment methods to reduce churn.  
+5. Offer loyalty benefits to high-risk customers.  
+6. Cross-sell bundled services to increase customer stickiness.  
+7. Use AI-driven churn scores to prioritize retention campaigns.
+
+---
+
+##  Project Files
+- **Customer_Churn_Analysis.pbix** – Main Power BI dashboard  
+- **Customer_Churn_Presentation.pptx** – Final analysis presentation  
+- **/Screenshots/** – Dashboard visuals (optional)  
+- **banner.png** – Repository banner image  
+
+# Author
+Bathula Venu Gopal
+Data Science & BI Enthusiast
+Power BI | SQL | Python | ML | Analytics | Storytelling
 
 
 
