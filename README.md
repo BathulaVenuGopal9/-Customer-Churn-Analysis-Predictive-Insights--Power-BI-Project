@@ -1,6 +1,5 @@
 <p align="center">
-  <!-- Optional Banner: upload banner.png to your repo and replace URL -->
-  <img src="https://raw.githubusercontent.com/yourusername/yourrepo/main/banner.png" alt="Customer Churn Analysis Banner" width="100%">
+  <img src="https://raw.githubusercontent.com/BathulaVenuGopal9/-Customer-Churn-Analysis-Predictive-Insights--Power-BI-Project/main/c4062968-ad50-4f65-b573-9ed8f514b271.png" alt="Customer Churn Analysis Banner" width="100%">
 </p>
 
 # Customer Churn Analysis & Predictive Insights | Power BI Project
